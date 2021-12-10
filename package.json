@@ -1,0 +1,21 @@
+{
+  "name": "repoinf",
+  "version": "0.1.0",
+  "description": "Library for getting basic information about a Git repository for versioning purposes",
+  "main": "index.js",
+  "keywords": [
+    "Git",
+    "uname"
+  ],
+  "homepage": "https://github.com/msikma/repoinf",
+  "repository": "https://github.com/msikma/repoinf",
+  "author": "Michiel Sikma <michiel@sikma.org>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
