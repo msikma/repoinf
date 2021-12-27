@@ -27,32 +27,32 @@ getRepoInfo(repoRoot[, isContainer, gitCmd])
 
 **Parameters:**
 
-* `repoRoot` **String**
+* `repoRoot` **String**\
   Path to the repository to return information for.
-* `isContainer` **Boolean**: *true*
+* `isContainer` **Boolean**: *true*\
   Whether the `repoRoot` path *contains* the **.git** directory (as opposed to *being* the **.git** directory).
-* `gitCmd` **String**: *"git"*
+* `gitCmd` **String**: *"git"*\
   Name of or path to the Git executable, if it's not `"git"`.
 
 **Returns:**
 
-* `isRepo` **Boolean**
+* `isRepo` **Boolean**\
   Whether the given path is a valid repository. If not, only `isRepo` and `hasCommits` will be returned, both **false**.
-* `hasCommits` **Boolean**
+* `hasCommits` **Boolean**\
   Whether the repository has any commits. Without commits, only the branch name can be determined and all other data is empty.
-* `branch` **String**
+* `branch` **String**\
   Name of the currently active branch.
-* `hash` **String**
+* `hash` **String**\
   Short 7-character hash.
-* `hashFull` **String**
+* `hashFull` **String**\
   Full 40-character hash.
-* `lastCommit` **Date**
+* `lastCommit` **Date**\
   Date of the last commit.
-* `commits` **Number**
+* `commits` **Number**\
   Number of commits on this branch.
-* `version` **String**
+* `version` **String**\
   Formatted string representing the repository's state, e.g. `"main-423 [97a65b1]"`.
-* `versionDashed` **String**
+* `versionDashed` **String**\
   Formatted string separated only by dashes, e.g. `"main-423-97a65b1"`.
 
 **Example:**
@@ -87,21 +87,21 @@ getPlatformInfo()
 
 **Returns:**
 
-* `version` **String**
+* `version` **String**\
   Full string identifying the kernel version.
-* `uptime` **Number**
+* `uptime` **Number**\
   Number of seconds that the system has been up.
-* `platform` **String**
+* `platform` **String**\
   OS platform name (`aix`, `darwin`, `freebsd`, `linux`, `openbsd`, `sunos`, or `win32`).
-* `type` **String**
+* `type` **String**\
   OS name (`Linux`, `Darwin` or `Windows_NT`).
-* `release` **String**
+* `release` **String**\
   OS version.
-* `hostname` **String**
+* `hostname` **String**\
   System hostname.
-* `arch` **String**
+* `arch` **String**\
   CPU architecture for which Node was compiled.
-* `bootTime` **Date**
+* `bootTime` **Date**\
   Date object based on the current time and `uptime`.
 
 **Example:**
