@@ -1,6 +1,6 @@
 {
   "name": "repoinf",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Library for getting basic information about a Git repository for versioning purposes",
   "main": "index.js",
   "keywords": [
